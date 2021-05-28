@@ -9,6 +9,8 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
+let greeting = document.getElementById('greeting');
+
 /* Write your implementation of greet() */
 
 function greet(string){
