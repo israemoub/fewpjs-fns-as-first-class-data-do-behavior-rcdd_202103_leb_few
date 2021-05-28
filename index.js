@@ -32,6 +32,6 @@ function greet(string){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(message){
-  greeting.innerHTML = message;
+  greeting.innerHTML = `${message}`;
   console.log(message);
 }
