@@ -35,3 +35,4 @@ function displayMessage(message){
   greeting.innerHTML = `${message}`;
   console.log(message);
 }
+
