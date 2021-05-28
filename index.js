@@ -31,8 +31,7 @@ function greet(string){
 
 /* Write your implementation of displayMessage() */
 
-function displayMessage(message){
-  greeting.innerHTML = `${message}`;
-  console.log(message);
+function displayMessage(string){
+  document.getElementById('greeting').innerText = `${string}`;
 }
 
